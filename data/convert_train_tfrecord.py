@@ -9,7 +9,7 @@ import tensorflow as tf
 
 flags.DEFINE_string('hr_dataset_path', './data/DIV2K/DIV2K800_sub',
                     'path to high resolution dataset')
-flags.DEFINE_string('lr_dataset_path', './data/DIV2K/DIV2K800_sub_bicLRx4',
+flags.DEFINE_string('lr_dataset_path', './data/DIV2K/DIV2K800_sub_bicLRx3',
                     'path to low resolution dataset')
 flags.DEFINE_string('output_path', './data/DIV2K800_sub_bin.tfrecord',
                     'path to ouput tfrecord')
